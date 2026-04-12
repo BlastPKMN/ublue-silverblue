@@ -2,13 +2,9 @@
 
 See the [BlueBuild docs](https://blue-build.org/how-to/setup/) for quick setup instructions for setting up your own repository based on this template.
 
+## Overview
+
 Fedora Silverblue base OS image >> Universal Blue rebased OS image + GNOME desktop environment + CachyOS kernel
-
-## Personal Configuration
-
-- Kernel: Swapped to the CachyOS kernel for more performance while gaming.
-
-- Desktop: Pre-configured with the GNOME desktop environment.
 
 ## Installation
 

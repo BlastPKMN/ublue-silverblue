@@ -2,6 +2,7 @@
 name: bluebuild
 
 on:
+  
   schedule:
     
     # build at 06:00 UTC every day (20 minutes after last ublue images start building)
@@ -9,6 +10,7 @@ on:
         "00 06 * * *" 
   
   push:
+    
     paths-ignore:
       
       # do not rebuild if only documentation has changed
@@ -29,9 +31,11 @@ jobs:
   
   # job to build custom image
   bluebuild:
+    
     name: Build Custom Image
     runs-on: ubuntu-latest
     permissions:
+      
       contents: read
       packages: write
       id-token: write
@@ -45,6 +49,7 @@ jobs:
         
         # add your recipes here
         recipe:
+          
           - recipe.yml
     
     steps:
@@ -53,6 +58,7 @@ jobs:
       - name: Build Custom Image
         uses: blue-build/github-action@v1.11
         with:
+          
           recipe: ${{ matrix.recipe }}
           cosign_private_key: ${{ secrets.SIGNING_SECRET }}
           registry_token: ${{ github.token }}

@@ -12,7 +12,7 @@ dnf -y copr enable bieszczaders/kernel-cachyos
 # install the CachyOS kernel and bypass scripts
 dnf -y install kernel-cachyos --setopt=tsflags=noscripts
 
-# build modules, run depmod & generate initramfs
+# build modules, run depmod and generate initramfs
 VER=$(ls /lib/modules)
 depmod -a "$VER"
 dracut --kver "$VER" \

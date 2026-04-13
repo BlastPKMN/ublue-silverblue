@@ -8,7 +8,7 @@ Fedora Silverblue base OS image >> Universal Blue rebased OS image + GNOME deskt
 
 ## Installation
 
-To rebase an existing Fedora Silverblue, or any atomic Fedora, installation to the latest build:
+To rebase an existing Fedora Silverblue installation to the latest build:
 
 - First rebase to the unsigned image, to get the proper signing keys and policies installed:
   ```

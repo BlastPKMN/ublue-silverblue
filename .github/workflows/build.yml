@@ -4,8 +4,8 @@ on:
     - cron:
         "00 06 * * *" # build at 06:00 UTC every day (20 minutes after last ublue images start building)
   push:
-    paths-ignore: # do not rebuild if only documentation has changed
-      - "**.md"
+    paths-ignore:
+      - "**.md" # do not rebuild if only documentation has changed
 
   pull_request:
   workflow_dispatch: # allow manually triggering builds
@@ -24,8 +24,7 @@ jobs:
     strategy:
       fail-fast: false # stop GitHub from cancelling all matrix builds if one fails
       matrix:
-        recipe:
-          # add your recipes here
+        recipe: # add your recipes here
           - recipe.yml
     steps:
       # the build is fully handled by the reusable GitHub action

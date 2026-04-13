@@ -1,6 +1,6 @@
 # ublue-gnome &nbsp; [![bluebuild build badge](https://github.com/blastpkmn/ublue-gnome/actions/workflows/build.yml/badge.svg)](https://github.com/blastpkmn/ublue-gnome/actions/workflows/build.yml)
 
-Custom Universal Blue Gnome image by BlastPKMN
+Custom Universal Blue GNOME image by BlastPKMN
 
 ## Configuration
 

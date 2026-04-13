@@ -43,8 +43,8 @@ jobs:
       
       matrix:
         
-        # add your recipes here
         recipe:
+        # add your recipes here
           - recipe.yml
     
     steps:

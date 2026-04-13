@@ -1,5 +1,7 @@
 # ublue-gnome &nbsp; [![bluebuild build badge](https://github.com/blastpkmn/ublue-gnome/actions/workflows/build.yml/badge.svg)](https://github.com/blastpkmn/ublue-gnome/actions/workflows/build.yml)
 
+BlastPKMN's custom Universal Blue Gnome image
+
 ## Description
 
 Fedora Silverblue base OS image >> Universal Blue rebased OS image + GNOME desktop environment + CachyOS kernel
@@ -31,4 +33,6 @@ These images are signed with [Sigstore](https://www.sigstore.dev/)'s [cosign](ht
 ```bash
 cosign verify --key cosign.pub ghcr.io/blastpkmn/ublue-gnome
 ```
+## Documentation
+
 See the [BlueBuild docs](https://blue-build.org/how-to/setup/) for quick setup instructions for setting up your own repository based on this template.

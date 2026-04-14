@@ -1,10 +1,11 @@
-# ublue-gnome &nbsp; [![bluebuild build badge](https://github.com/blastpkmn/ublue-gnome/actions/workflows/build.yml/badge.svg)](https://github.com/blastpkmn/ublue-gnome/actions/workflows/build.yml)
+# ublue-silverblue &nbsp; [![bluebuild build badge](https://github.com/blastpkmn/ublue-gnome/actions/workflows/build.yml/badge.svg)](https://github.com/blastpkmn/ublue-gnome/actions/workflows/build.yml)
 
-Custom Universal Blue GNOME image by BlastPKMN
+Custom Universal Blue Silverblue image by BlastPKMN
 
 ## Configuration
 
-Universal Blue OS image template + GNOME desktop environment + CachyOS kernel
+- Universal Blue Silverblue OS image template
+- CachyOS kernel
 
 ## Installation
 

@@ -3,9 +3,7 @@
 Custom Universal Blue Silverblue image by BlastPKMN
 
 ## Configuration
-Universal Blue Silverblue image template
-
-CachyOS kernel
+Universal Blue Silverblue image template with CachyOS kernel and minimal/debloated
 
 ## Installation
 

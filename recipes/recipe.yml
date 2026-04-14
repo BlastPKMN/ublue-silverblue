@@ -5,7 +5,7 @@ description: Custom Universal Blue GNOME image by BlastPKMN
 
 # base image
 base-image: ghcr.io/ublue-os/silverblue-main
-image-version: latest
+image-version: 44
 
 # module configuration, executed in order
 modules:

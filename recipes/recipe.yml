@@ -36,6 +36,23 @@ modules:
         - htop
         - firefox
         - firefox-langpacks
+        - rhythmbox
+        - gnome-calculator
+        - gnome-calendar
+        - cheese
+        - gnome-characters
+        - gnome-clocks
+        - gnome-connections
+        - gnome-contacts
+        - simple-scan
+        - evince
+        - gnome-font-viewer
+        - yelp
+        - gnome-maps
+        - gnome-music
+        - gnome-tour
+        - gnome-weather
+        - epiphany
 
   # this sets up the proper policy and signing files for signed images to work fully
   - type: signing

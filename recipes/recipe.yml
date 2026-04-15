@@ -43,7 +43,6 @@ modules:
   - type: default-flatpaks
 
     # remove GNOME packages
-    notify: false
     remove:
 
       packages:

@@ -36,24 +36,21 @@ modules:
         - htop
         - firefox
         - firefox-langpacks
-        
-    -type: flatpak
-      remove:
-        - org.freedesktop.MalcontentControl 
-        - org.fedoraproject.MediaWriter
-        - org.gnome.Calculator
-        - org.gnome.Calendar
-        - org.gnome.Characters
-        - org.gnome.clocks
-        - org.gnome.Connections
-        - org.gnome.Contacts
-        - org.gnome.font-viewer
-        - org.gnome.Help
-        - org.gnome.Maps
-        - org.gnome.Papers
-        - org.gnome.Snapshot
-        - org.gnome.Tour
-        - org.gnome.Weather
+        - malcontent-control
+        - mediawriter
+        - gnome-calculator
+        - gnome-calendar
+        - gnome-characters
+        - gnome-clocks
+        - gnome-connections
+        - gnome-contacts
+        - gnome-font-viewer
+        - yelp
+        - gnome-maps
+        - papers
+        - snapshot
+        - gnome-tour
+        - gnome-weather
 
   # this sets up the proper policy and signing files for signed images to work fully
   - type: signing

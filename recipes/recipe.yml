@@ -36,6 +36,9 @@ modules:
         - htop
         - firefox
         - firefox-langpacks
+        
+    -type: flatpak
+      remove:
         - org.freedesktop.MalcontentControl 
         - org.fedoraproject.MediaWriter
         - org.gnome.Calculator

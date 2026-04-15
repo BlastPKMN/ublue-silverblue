@@ -36,6 +36,9 @@ modules:
         - htop
         - firefox
         - firefox-langpacks
+        - help
+        - org.gnome.Help
+        - org.freedesktop.MalcontentControl
 
   - type: default-flatpaks
 

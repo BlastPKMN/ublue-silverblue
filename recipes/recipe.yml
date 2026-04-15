@@ -43,9 +43,9 @@ modules:
   - type: default-flatpaks
 
     # remove GNOME packages
+    notify: false
+    system:
     remove:
-
-      packages:
         
         - org.fedoraproject.MediaWriter
         - org.gnome.Calculator

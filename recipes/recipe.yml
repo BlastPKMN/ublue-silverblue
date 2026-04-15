@@ -37,5 +37,25 @@ modules:
         - firefox
         - firefox-langpacks
 
+  - type: default-flatpaks
+
+      # remove GNOME packages
+      notify: false
+      remove:
+        
+        - org.fedoraproject.MediaWriter
+        - org.gnome.Calculator
+        - org.gnome.Calendar
+        - org.gnome.Characters
+        - org.gnome.clocks
+        - org.gnome.Connections
+        - org.gnome.Contacts
+        - org.gnome.font-viewer
+        - org.gnome.Maps
+        - org.gnome.Papers
+        - org.gnome.Snapshot
+        - org.gnome.Tour
+        - org.gnome.Weather
+
   # this sets up the proper policy and signing files for signed images to work fully
   - type: signing

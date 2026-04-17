@@ -35,6 +35,7 @@ modules:
         - firefox
         - firefox-langpacks
         - gnome-disk-utility
+        - gnome-software
         - gnome-system-monitor
         - gnome-tour
         - htop

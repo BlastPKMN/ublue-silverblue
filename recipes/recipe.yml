@@ -17,15 +17,8 @@ modules:
     
       - kernel-cachyos.sh
 
-  - type: dnf
-
-    # repo for gdm-settings
-    repos:
-      
-      files:
-        
-        - https://copr.fedorainfracloud.org/coprs/mazharhussain/gdm-settings/repo/fedora-%OS_VERSION%/mazharhussain-gdm-settings-fedora-%OS_VERSION%.repo
-    
+  - type: dnf  
+   
     # install packages    
     install:
 
@@ -33,7 +26,6 @@ modules:
       
         - fastfetch
         - fish
-        - gdm-settings
         
     # remove packages
     remove:

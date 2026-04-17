@@ -22,7 +22,7 @@ modules:
     # install packages    
     install:
 
-    repo:
+    repos:
 
       - https://copr.fedorainfracloud.org/coprs/mazharhussain/gdm-settings/repo/fedora-%OS_VERSION%/mazharhussain-gdm-settings-fedora-%OS_VERSION%.repo
     
